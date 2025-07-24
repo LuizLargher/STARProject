@@ -1,0 +1,91 @@
+footer {
+  background-color: #ffffff;
+  position: absolute;
+  width: 100%;
+  padding: 1rem;
+
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+
+    .info-links {
+      width: 50%;
+      display: flex;
+      flex-direction: row;
+
+      div {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+
+        h3 {
+          color: black;
+          font-weight: 600;
+        }
+        a {
+          color: black;
+        }
+      }
+    }
+    .more-links {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+
+      h3 {
+        color: rgb(0, 0, 0);
+        font-weight: 600;
+      }
+
+      #social-media {
+        div {
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+
+            a {
+              color: black;
+            }
+        }
+      }
+
+      #pagamentos {
+        div {
+            
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 1rem;
+
+
+            img {
+              width: 5%;
+            }
+        }
+      }
+
+      #app {
+        a {
+          img {
+            width: 20px;
+            height: 20px;
+          }
+        }
+      }
+    }
+  }
+  .footer-content {
+    a {
+      color: black;
+    }
+    p {
+      color: black;
+    }
+  }
+}
+
+.line {
+  background-color: black;
+  color: white;
+  height: 1px;
+}

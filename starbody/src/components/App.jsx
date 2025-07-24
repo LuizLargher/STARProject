@@ -1,14 +1,35 @@
-import { useState } from 'react'
-import '../css/App.css'
+import { useState } from "react";
 
 function App() {
   return (
     <>
-      <div>
-        <h1 className='text-3xl font-bold text-red-500'>Hello World!</h1>
-      </div>
+      <p>texto</p>
+      <p>texto</p>
+      <p>texto</p>
+      <p>texto</p>
+      <p>texto</p>
+      <p>texto</p>
+      <p>texto</p>
+      <p>texto</p>
+      <p>texto</p>
+      <p>texto</p>
+      <p>texto</p>
+      <p>texto</p>
+      <p>texto</p>
+      <p>texto</p>
+      <p>texto</p>
+      <p>texto</p>
+      <p>texto</p>
+      <p>texto</p>
+      <p>texto</p>
+      <p>texto</p>
+      <p>texto</p>
+      <p>texto</p>
+      <p>texto</p>
+      <p>texto</p>
+      <p>texto</p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

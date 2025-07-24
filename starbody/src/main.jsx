@@ -2,13 +2,13 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './css/index.css'
 import App from './components/App.jsx'
-import Example from './components/Example.jsx'
-import Mine from './components/Mine.jsx'
+import Footer from './components/Footer.jsx'
+import Header from './components/Header.jsx'
 
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById('container')).render(
   <StrictMode>
+    <Header />
     <App />
-    <Example />
-    <Mine />
+    <Footer />
   </StrictMode>
 )
