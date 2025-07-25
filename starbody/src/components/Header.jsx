@@ -83,7 +83,7 @@ function Header() {
       </div>
       <nav className='nav-links'>
         <a href="#">
-            <span>OFERTAS</span>
+            <span >OFERTAS</span>
         </a>
         <a href="#">
             <span>NOVIDADES</span>

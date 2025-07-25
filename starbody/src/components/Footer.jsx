@@ -6,7 +6,7 @@ function Footer() {
       <div className="footer-links">
         <div className="info-links">
           <div>
-            <h3>Suporte</h3>
+            <h3>SUPORTE</h3>
             <a href="#">Atendimento ao cliente</a>
             <a href="#">Dúvidas gerais</a>
             <a href="#">Entregas</a>
@@ -20,7 +20,7 @@ function Footer() {
             <a href="#">Acessibilidade</a>
           </div>
           <div>
-            <h3>Produtos</h3>
+            <h3>PRODUTOS</h3>
             <a href="#">Chapéus</a>
             <a href="#">Acessórios</a>
             <a href="#">Casacos</a>
@@ -30,7 +30,7 @@ function Footer() {
             <a href="#">Sapatos</a>
           </div>
           <div>
-            <h3>Esportes</h3>
+            <h3>ESPORTES</h3>
             <a href="#">Futebol</a>
             <a href="#">Basquete</a>
             <a href="#">Voleibol</a>
@@ -41,7 +41,7 @@ function Footer() {
             <a href="#">E-Sports</a>
           </div>
           <div>
-            <h3>Outros</h3>
+            <h3>OUTROS</h3>
             <a href="#">Cartão presente</a>
             <a href="#">Mapa do site</a>
             <a href="#">Guia de produtos</a>
@@ -49,7 +49,7 @@ function Footer() {
             <a href="#">Black Friday</a>
           </div>
           <div>
-            <h3>Corporativo</h3>
+            <h3>CORPORATIVO</h3>
             <a href="#">Sobre a STAR, Inc</a>
             <a href="#">Parceiros</a>
             <a href="#">Lojas</a>

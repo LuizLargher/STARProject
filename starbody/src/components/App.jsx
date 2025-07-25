@@ -1,12 +1,19 @@
 import { useState } from "react";
+import Categories from "./Categories.jsx";
+import Products from "./Products.jsx";
 
 function App() {
   return (
     <>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
+      <section id="carousel">
+      </section>
+      <section id="categories">
+        <Categories />
+      </section>
+      <section id="offers"></section>
+      <section id="products">
+        <Products />
+      </section>
     </>
   );
 }
