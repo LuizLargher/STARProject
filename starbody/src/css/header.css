@@ -68,7 +68,7 @@
       align-items: center;
       gap: 0.2rem;
       margin: 1rem 1rem 1rem 1rem;
-      padding: 0.5rem;
+      padding: 1rem;
       border-radius: 0.5rem;
 
       &:hover {
@@ -82,27 +82,32 @@
   }
 }
 .nav-links {
-    width: 100%;
-    height: 2.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
-    background-image: linear-gradient(to right, #8c52ff 10%, #ffd322 50%, #8c52ff 90%);
-    
-    a {
-        color: #000000;
-        text-decoration: none;
-        font-weight: 500;
-        font-size: 1rem;
-        margin: 0.5rem 1rem 0.5rem 1rem;
-        padding: 0.2rem;
-    
-        &:hover {
-        transform: scale(1.05);
-        color: #ffffff;
-        border-bottom: 3.5px solid #ffffff;
-        transition: 0.1s ease-in-out;
-        }
+  width: 100%;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  background-image: linear-gradient(
+    to right,
+    #8c52ff 5%,
+    #ffd322 50%,
+    #8c52ff 95%
+  );
+
+  a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 0.5rem 1rem 0.5rem 1rem;
+    padding-left: 0.3rem;
+
+    &:hover {
+      transform: scale(1.05);
+      color: #ffffff;
+      border-left: 4px solid #ffffff;
+      transition: 0.1s ease-in-out;
     }
+  }
 }

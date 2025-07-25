@@ -3,31 +3,10 @@ import { useState } from "react";
 function App() {
   return (
     <>
-      <p>texto</p>
-      <p>texto</p>
-      <p>texto</p>
-      <p>texto</p>
-      <p>texto</p>
-      <p>texto</p>
-      <p>texto</p>
-      <p>texto</p>
-      <p>texto</p>
-      <p>texto</p>
-      <p>texto</p>
-      <p>texto</p>
-      <p>texto</p>
-      <p>texto</p>
-      <p>texto</p>
-      <p>texto</p>
-      <p>texto</p>
-      <p>texto</p>
-      <p>texto</p>
-      <p>texto</p>
-      <p>texto</p>
-      <p>texto</p>
-      <p>texto</p>
-      <p>texto</p>
-      <p>texto</p>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
     </>
   );
 }
